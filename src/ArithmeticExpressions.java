@@ -18,6 +18,9 @@ public class ArithmeticExpressions {
         int u = 10 + 3 * 2;
         System.out.println(u);
 
+        int t = (10 + 3) * 2;
+        System.out.println(t);
+
 
     }
 }
