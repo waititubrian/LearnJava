@@ -1,6 +1,7 @@
 public class Casting {
     public static void main(String[] args) {
         // byte -> short -> int -> long -> float -> double
+
         byte b = 127;
         int a = 12;
         b = (byte)a; // Explicit casting
@@ -8,18 +9,35 @@ public class Casting {
         System.out.println(a);
         System.out.println(b);
 
-        float f = 5.6F;
-//        int x = (int)f;
-        int x = (int)(Math.round(f));
-        System.out.println(x);
+        //Implicit casting[Automatic Conversion](Happens when compiler automatically converts one d.t to another, i.e from smaller to larger d.t)-->No data loss
+        short s = 1;
+        int q = s + 2;
+        System.out.println(q);
 
-        byte d = 127;
-        int c = d;
-        System.out.println(c);
+        double t = 1.1;
+        double r = t + 2;
+        System.out.println(r);
 
-        int e = 257;
-        byte g = (byte)e;
-        System.out.println(g);
+        //Explicit casting[Forced Conversion](Converts a larger d.t to smaller d.t)-->Potential data loss
+        double w = 1.1;
+        int v = (int)w + 2;
+        System.out.println(v);
+
+
+//        Integer.parseInt(u); //int
+//        Short.parseShort(u); //short
+//        Float.parseFloat(u); //float
+//        Double.parseDouble(u); //double
+
+        String u = "1";
+        int p = Integer.parseInt(u) + 2;
+        System.out.println(p);
+
+        int k = Short.parseShort(u) + 2;
+        System.out.println(u);
+
+        Float l = Float.parseFloat(u) + 2;
+        System.out.println(p);
 
     }
 }
