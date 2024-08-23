@@ -8,7 +8,7 @@ public class WhileLoops {
 //        System.out.println();
 
        // Above program written with a While Loop
-        int i =5;
+        int i = 5;
         while (i > 0) {
             System.out.println("Hello World!" + i);
             i--;
