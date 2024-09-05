@@ -1,3 +1,6 @@
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
 public class ForLoops {
     public static void main (String [] args){
         for (int i = 0; i < 5; i++)
@@ -18,6 +21,10 @@ public class ForLoops {
 
         for (int i = 5; i > 0; i--)
             System.out.println("Hello World!" + i);
-        System.out.println();
+        System.out.println("===============================");
+
+        int V = 2;
+        for(int c = 1; c <= 10; c++)
+            System.out.println(V + " * " + c + " = " + (V * c));
     }
 }
