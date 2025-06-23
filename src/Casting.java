@@ -3,7 +3,7 @@ public class Casting {
         // byte -> short -> int -> long -> float -> double
 
         byte b = 127;
-        int a = 12;
+        int a = 257;
         b = (byte)a; // Explicit casting
         a = b; // Implicit casting
         System.out.println(a);
@@ -30,14 +30,15 @@ public class Casting {
 //        Double.parseDouble(u); //double
 
         String u = "1";
+
         int p = Integer.parseInt(u) + 2;
         System.out.println(p);
 
-        int k = Short.parseShort(u) + 2;
-        System.out.println(u);
+        int k = Short.parseShort(u) + 3;
+        System.out.println(k);
 
-        Float l = Float.parseFloat(u) + 2;
-        System.out.println(p);
+        Float l = Float.parseFloat(u) + 4;
+        System.out.println(l);
 
     }
 }
