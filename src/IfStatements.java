@@ -1,8 +1,8 @@
 public class IfStatements {
     public static void main(String[] args){
         int x = 5;
-        int y = 7;
-        int z = 2;
+        int y = 3;
+        int z = 8;
         if (x>y && x>z){
             System.out.println(x);
         }

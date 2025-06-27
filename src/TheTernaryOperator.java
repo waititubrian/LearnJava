@@ -8,7 +8,7 @@ public class TheTernaryOperator {
 
         System.out.println(">>>>>>>>>>>>>>>>>>");
 
-        int n = 5;
+        int n = 6;
         int result = (n%2==0 ? 10 : 20);
         System.out.println(result);
         // Can also be written this way
@@ -21,7 +21,7 @@ public class TheTernaryOperator {
         int y = 7;
         int z = 2;
 
-        int numberSize = ((x>y && x>z) ? x : (y>z ? y : z));
+        int numberSize = (x>y && x>z ? x : y>z ? y : z);
         System.out.println(numberSize);
         // Can also be written this way
         System.out.println((x>y && x>z) ? x : (y>z ? y : z));
