@@ -8,18 +8,35 @@ public class WhileLoops {
 //        System.out.println();
 
        // Above program written with a While Loop
-        int i = 5;
-        while (i > 0) {
-            System.out.println("Hello World!" + i);
-            i--;
+        int a = 5;
+        while (a > 0) {
+            System.out.println("Hello World!" + a);
+            a--;
         }
+
+        System.out.println(">>>>>>>>>>>>>>>>>>");
 
         Scanner scanner = new Scanner(System.in);
         String input = "";
-        while (input.equals("quit")) {
+        while (!input.equals("quit")) {
             System.out.println("Input: ");
             input = scanner.next().toLowerCase();
             System.out.println(input);
+        }
+
+        System.out.println(">>>>>>>>>>>>>>>>>>");
+
+        // Nested While loop - A while loop that runs inside another while loop
+        int i = 1;
+        while(i<=4){
+            System.out.println("Hi" + i);
+            i++;
+
+            int j = 1;
+            while(j<=3) {
+                System.out.println("Hello" + j);
+                j++;
+            }
         }
     }
 }

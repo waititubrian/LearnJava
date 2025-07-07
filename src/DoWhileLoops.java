@@ -18,7 +18,16 @@ public class DoWhileLoops {
             System.out.println("Input: ");
             input = scanner.next().toLowerCase();
             System.out.println(input);
-        } while (!input.equals("quit"));
+        } while (input.equals("quit"));
+
+        System.out.println(">>>>>>>>>>>>>>>>>>");
+
+        int i = 5;
+        do{
+            System.out.println("Hi" + i);
+            i++;
+        }
+        while(i<=4);
 
         }
     }
