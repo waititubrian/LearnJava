@@ -16,7 +16,7 @@ public class ClassAndObjectTheory {
 
         Computer obj = new Computer();
         obj.playMusic();
-        String str = obj.getMeAPen(1);
+        String str = obj.getMeAPen(10);
         System.out.println(str);
 
         String greeting = "HelloHelloHello";
