@@ -1,13 +1,13 @@
-package oop;
+package oop.inventorysystem;
 
 public class Fruit extends Item {
-     private String type;
+    private String type;
 
-     // Constructor
-     public Fruit(String name, int quantity, String type){
-         super(name, quantity);
-         this.type = type;
-     }
+    // Constructor
+    public Fruit(String name, int quantity, String type){
+        super(name, quantity);
+        this.type = type;
+    }
 
     public String getType() {
         return type;

@@ -1,4 +1,4 @@
-package oop;
+package oop.inventorysystem;
 
 // To enable multiple inheritance of method signatures, you will use 'implements' instead of 'extends'
 public interface ItemStuff {

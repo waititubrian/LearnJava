@@ -1,4 +1,4 @@
-package oop;
+package oop.inventorysystem;
 
 // Inventory system which holds Items - Like you would find in a video game
 public class Main {

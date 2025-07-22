@@ -1,4 +1,4 @@
-package oop;
+package oop.inventorysystem;
 
 public class Weapon extends Item {
     private int damage;
