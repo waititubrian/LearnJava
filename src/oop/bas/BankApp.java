@@ -60,13 +60,13 @@ public class BankApp {
                 case 1:
                     System.out.print("Enter deposit amount: ");
                     double deposit = scanner.nextDouble();
-                    scanner.nextLine(); // clear buffer
+                    scanner.nextLine();
                     account.deposit(deposit);
                     break;
                 case 2:
                     System.out.print("Enter withdrawal amount: ");
                     double withdraw = scanner.nextDouble();
-                    scanner.nextLine(); // clear buffer
+                    scanner.nextLine();
                     account.withdraw(withdraw);
                     break;
                 case 3:
